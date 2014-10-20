@@ -1,0 +1,55 @@
+a {
+	text-decoration: none;
+}
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%; 
+	background: darkgreen;
+}
+/*	font-family: 'PT Serif', serif; is for the h1 and h2 or headlines*/
+/*	font-family: 'Lora', serif; is for the paragraphs and such*/
+
+h1	{
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2	{
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+
+}
+header	{
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+h1 , h2 , h3 {
+	color: #fff;
+	font-family: 'PT Serif' ,serif;
+}
+nav	{
+	background: #599a68;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+p {
+	font-family: 'Lora' , serif;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
