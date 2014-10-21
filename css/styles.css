@@ -1,55 +1,151 @@
-a {
-	text-decoration: none;
-}
+/**********************************
+GENERAL
+***********************************/
+
 #wrapper {
-	max-width: 940px;
-	margin: 0 auto;
-	padding: 0 5%; 
-	background: darkgreen;
-}
-/*	font-family: 'PT Serif', serif; is for the h1 and h2 or headlines*/
-/*	font-family: 'Lora', serif; is for the paragraphs and such*/
-
-h1	{
-	margin: 15px 0;
-	font-size: 1.75em;
-	font-weight: normal;
-	line-height: 0.8em;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
-h2	{
-	font-size: 0.75em;
-	margin: -5px 0 0;
-	font-weight: normal;
+a {
+  text-decoration: none;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+	float: left;
+	margin: 0px 0 30px 0; 
+	padding: 5px 0 0 0; 
+	width: 100%
+
 }
 
 #logo {
-	text-align: center;
-	margin: 0;
-
-}
-header	{
-	background: #6ab47b;
-	border-color: #599a68;
+  text-align: left;
+  margin: 0;
 }
 
-h1 , h2 , h3 {
-	color: #fff;
-	font-family: 'PT Serif' ,serif;
-}
-nav	{
-	background: #599a68;
+h1	{
+	font-family: 'PT Serif', sans-serif;
+	margin: 15px 0 0 15px;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+	padding: 0;
 }
 
+h2	{
+	font-family: 'PT Serif', sans-serif;
+	font-style: italic;
+	font-size: 1.2em;
+	margin: 0px 0 0 30px;
+	padding: 0;
+	line-height: 1em;
+	font-weight: normal;
+
+}
+/**********************************
+Navigation
+***********************************/
+
+nav {
+	text-align: left;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	font-size: 20px;
+	display: inline-block;
+	margin: 10px
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+/**********************************
+BODY
+***********************************/
+
+body {
+	background: url("../img/otis_redding.png");
+	background-color: blue;
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: White;
+}
+
+/* green header */
+header {
+  background: #6ab47b;
+  border-color: #599a68;
+}
+
+/* nav background on mobile */
+nav {
+  background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link */
 nav a, nav a:visited {
-	color: #fff;
+  color: #fff;
 }
 
+/* selected nav link */
 nav a.selected, nav a:hover {
-	color: #32673f;
+  color: #32673f;
 }
+
+/*****************************
+PARAGRAPH
+******************************/
 p {
-	font-family: 'Lora' , serif;
-	font-size: 16px;
-	margin: 0 0 10px 0;
+	text-indent: 10px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
