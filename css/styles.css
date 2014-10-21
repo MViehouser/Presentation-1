@@ -82,8 +82,7 @@ BODY
 ***********************************/
 
 body {
-	background: url("../img/otis_redding.png");
-	background-color: blue;
+	background: url("../img/grey.png");
 }
 
 
@@ -95,7 +94,7 @@ COLORS
 /* site body */
 body {
   background-color: #fff;
-  color: White;
+  color: #999;
 }
 
 /* green header */
