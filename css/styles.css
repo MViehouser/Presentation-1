@@ -50,6 +50,8 @@ h3 {
 	margin: 10px;
 	background-color: #38424E;
 	text-transform: uppercase;
+	border-top-left-radius: 25%;
+	border-bottom-right-radius: 25%;
 }
 
 
